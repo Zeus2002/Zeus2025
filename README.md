@@ -2,7 +2,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Dukung Saya di Saweria</title>
+  <title>Dukung Saya di Saweria</title>
+  <!-- Link ke Font Awesome untuk ikon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -30,7 +32,7 @@
       color: #444;
       font-size: 16px;
     }
-    .donate-button {
+    .donate-button, .social-button {
       display: inline-block;
       background-color: #fbbd08;
       color: #fff;
@@ -41,8 +43,19 @@
       margin-top: 15px;
       transition: background-color 0.3s;
     }
-    .donate-button:hover {
+    .donate-button:hover,
+    .social-button:hover {
       background-color: #e0a106;
+    }
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .social-button i {
+      margin-right: 8px;
     }
   </style>
 </head>
@@ -60,8 +73,15 @@
     </div>
     <div class="card">
       <h2>Gabung Jadi Pendukung!</h2>
-      <p>Kontribusimu sangat berarti. Jadilah bagian dari perjalanan ini.</p>
-      <a href="https://saweria.co/farishub" class="donate-button">Dukung Sekarang</a>
+      <p>Ikuti saya di media sosial dan jadi bagian dari komunitas!</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/afa.rise" target="_blank" class="social-button">
+          <i class="fab fa-instagram"></i>Instagram
+        </a>
+        <a href="https://www.tiktok.com/@afa.rise" target="_blank" class="social-button">
+          <i class="fab fa-tiktok"></i>TikTok
+        </a>
+      </div>
     </div>
   </div>
 </body>
