@@ -47,26 +47,22 @@
   </style>
 </head>
 <body>
-
   <div class="container">
     <div class="card">
-      <h2>Dukung Karya Saya!</h2>
+      <h2>Dukung FarisHub!</h2>
       <p>Bantu saya terus menghadirkan konten yang bermanfaat untukmu.</p>
-      <a href="https://saweria.co/USERNAME" class="donate-button">Donasi Sekarang</a>
+      <a href="https://saweria.co/farishub" class="donate-button">Donasi Sekarang</a>
     </div>
-
     <div class="card">
       <h2>Traktir Kopi!</h2>
       <p>Satu cangkir kopi bisa jadi semangat baru untuk saya berkarya setiap hari.</p>
-      <a href="https://saweria.co/USERNAME" class="donate-button">Traktir Kopi</a>
+      <a href="https://saweria.co/farishub" class="donate-button">Traktir Kopi</a>
     </div>
-
     <div class="card">
       <h2>Gabung Jadi Pendukung!</h2>
       <p>Kontribusimu sangat berarti. Jadilah bagian dari perjalanan ini.</p>
-      <a href="https://saweria.co/USERNAME" class="donate-button">Dukung Sekarang</a>
+      <a href="https://saweria.co/farishub" class="donate-button">Dukung Sekarang</a>
     </div>
   </div>
-
 </body>
 </html>
